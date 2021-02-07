@@ -26,8 +26,8 @@ const App = () => {
           <GameState>
             <SettingsState>
               <CounterState>
-                <Route path="/" component={Home} />
-                <Route exact path="/play/friend">
+                <Route path="/mind_chess" component={Home} />
+                <Route path="/mind_chess/play/friend">
                 {/* <Route exact path="/"> */}
                   <HumanGameState>
                     <P2PState>

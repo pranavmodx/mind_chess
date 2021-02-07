@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <Link to="/" className="text-link">
+        <Link to="/mind_chess/" className="text-link">
           <FontAwesomeIcon icon={faBrain} color={"#ffe0bd"} />
           <span>&nbsp;MindChess</span>
         </Link>
