@@ -1,0 +1,58 @@
+/* Style the tab */
+.game-tab {
+  // width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  // border: 1px solid #ddd;
+  background-color: white;
+}
+
+/* Style the buttons that are used to open the tab content */
+.game-tab button {
+  font-size: 20px;
+  background-color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+  cursor: pointer;
+  padding: 8px 36px;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .game-tab button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .game-tab button {
+    font-size: 18px;
+  }
+}
+
+
+/* Change background color of buttons on hover */
+.game-tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.game-tab button.active {
+  background-color: #ddd;
+}
+
+/* Style the tab content */
+.game-tab-content {
+  // display: none;
+  overflow: scroll;
+  // height: 100%;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  // border: 1px solid #ddd;
+  // border-top: none;
+}

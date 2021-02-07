@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+
+  .container-input input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  .btn-lg {
+    font-size: 24px;
+    padding: 10px;
+    width: max-content;
+    align-self: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+  }
+
+  .separator {
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 300px;
+    margin-top: 100px;
+  
+    .container-input input {
+      padding: 5px;
+      font-size: 18px;
+      margin: 0;
+    }
+  
+    .btn-lg {
+      font-size: 20px;
+    }
+
+    .separator {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 300px;
+    margin-top: 100px;
+  
+    .container-input input {
+      padding: 5px;
+      font-size: 16px;
+      margin: 0;
+    }
+  
+    .btn-lg {
+      font-size: 18px;
+    }
+
+    .separator {
+      font-size: 14px;
+    }
+  }
+}

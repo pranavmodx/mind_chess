@@ -1,0 +1,126 @@
+.lobby {
+  display: flex;
+  flex-direction: column;
+  // border: 1px solid grey;
+  height: 100%;
+  align-items: center;
+
+  &-loading {
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid grey;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  &-container {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 1fr 10fr 2fr;
+    border: 1px solid #ddd;
+    height: 100%;
+    width: 100%;
+
+    .heading {
+      text-align: center;
+      grid-column: 1 / span 5;
+    }
+
+    .lobby-settings-pane {
+      padding-top: 20px;
+      overflow: scroll;
+      .sub-heading {
+        text-align: center;
+      }
+      border: 1px solid #ddd;
+    }
+
+    .lobby-users-pane {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+
+      .sub-heading {
+        text-align: center;
+      }
+      border: 1px solid #ddd;
+
+      .users-table {
+        padding: 20px;
+
+        .users-item {
+          .t-header {
+            text-align: left;
+          }
+          .users-attr {
+            padding: 10px 30px;
+          }
+        }
+      }
+    }
+
+    .lobby-action-pane {
+      grid-column: 1 / span 5;
+      text-align: center;
+
+      padding: 20px;
+
+      .btn {
+        font-size: 18px;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .lobby {
+    &-container {
+      display: flex;
+      flex-direction: column;
+
+      .lobby-users-pane {
+        .users-table {
+          padding: 0;
+        }
+      }
+
+      .lobby-action-pane {
+        text-align: center;
+
+        .btn {
+          font-size: 16px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .lobby {
+    &-container {
+      display: flex;
+      flex-direction: column;
+
+      .lobby-users-pane {
+        .users-table {
+          padding: 0;
+        }
+      }
+
+      .lobby-action-pane {
+        text-align: center;
+
+        .btn {
+          font-size: 15px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+// GameState
+export const SET_CHESS_CLIENT = "SET_CHESS_CLIENT";
+export const SET_START_GAME = "SET_START_GAME";
+export const SET_MOVES_PGN = "SET_MOVES_PGN";
+export const SET_MOVES_FEN = "SET_MOVES_FEN";
+export const SET_MY_TURN = "SET_MY_TURN";
+export const SET_GAME_STATUS = "SET_GAME_STATUS";
+export const RESET_GAME_STATE = "RESET_GAME_STATE";
+
+// HumanGameState
+export const SET_HOST = "SET_HOST";
+export const SET_GAME_CODE = "SET_GAME_CODE";
+export const SET_OPP_USERNAME = "SET_OPP_USERNAME";
+export const SET_OPP_START_GAME = "SET_OPP_START_GAME";
+export const SET_RECEIVED_SETTINGS = "SET_RECEIVED_SETTINGS";
+export const SET_HUMAN_GAME_STATUS = "SET_HUMAN_GAME_STATUS";
+export const SET_OFFER_REMATCH = "SET_OFFER_REMATCH";
+export const SET_OFFER_DRAW = "SET_OFFER_DRAW";
+export const SET_REQUEST_TAKEBACK = "SET_REQUEST_TAKEBACK";
+export const RESET_HUMAN_GAME_STATE = "RESET_HUMAN_GAME_STATE";
+
+// P2PState
+export const SET_P2PT = "SET_P2PT";
+export const SET_OPP_PEER_OBJ = "SET_OPP_PEER_OBJ";
+
+// Settings
+export const SET_ALL_SETTINGS = "SET_ALL_SETTINGS";
+export const SET_COLOUR = "SET_COLOUR";
+export const SET_USERNAME = "SET_USERNAME";
+export const SET_ENTER_BY_KEYBOARD = "SET_ENTER_BY_KEYBOARD";
+export const SET_SHOW = "SET_SHOW";
+export const SET_TIMES_TO_SHOW = "SET_TIMES_TO_SHOW";
+export const SET_ALLOW = "SET_ALLOW";
+export const SET_TIMES_ALLOWED = "SET_TIMES_ALLOWED";
+
+// Counter
+export const SET_ALL_COUNTERS = "SET_ALL_COUNTERS";
+export const SET_COUNTER = "SET_COUNTER";
+export const DECREMENT_COUNTER = "DECREMENT_COUNTER";

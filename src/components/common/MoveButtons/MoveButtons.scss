@@ -1,0 +1,13 @@
+.move-button {
+	.btn {
+		padding: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.move-button {
+		.btn {
+			padding: 5px;
+		}
+	}
+}

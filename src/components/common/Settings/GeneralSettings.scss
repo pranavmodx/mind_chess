@@ -1,0 +1,83 @@
+.gen-settings {
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+	overflow: scroll;
+
+  .settings-table {
+    padding: 20px;
+
+    .settings-item {
+      .t-header {
+        text-align: left;
+			}
+			.settings-attr {
+				padding: 10px 50px;
+				width:fit-content;
+
+				.btn-group {
+					display: flex;
+					.btn {
+						padding: 5px;
+						border: 1px solid #ddd;
+						border-radius: 5px;
+					}
+					.highlight {
+						color: green;
+					}
+				}
+
+				.settings-select {
+					padding: 5px 10px;
+					border: 1px solid #ddd;
+					font-size: 16px;
+					font-weight: 300;
+				}
+			}
+			.settings-value {
+				padding: 10px 50px;
+
+				.btn-group {
+					display: flex;
+					.btn {
+						padding: 5px;
+						margin: 0;
+						border: 1px solid #ddd;
+						border-radius: 0;
+					}
+					.highlight {
+						color: green;
+					}
+				}
+
+				.settings-select {
+					padding: 5px 10px;
+					border: 1px solid #ddd;
+					font-size: 16px;
+					font-weight: 300;
+				}
+			}
+    }
+  }
+}
+
+@media (max-width: 500px) {
+	.gen-settings {
+		.settings-table {
+			padding: 0;
+	
+			.settings-item {
+				.settings-attr {
+					padding: 10px;
+		
+					.settings-select {
+						font-size: 14px;
+					}
+				}
+				.settings-value {
+					padding: 10px;
+				}
+			}
+		}
+	}
+}

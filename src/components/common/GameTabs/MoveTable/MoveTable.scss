@@ -1,0 +1,14 @@
+.move {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  table {
+    th {
+      padding: 10px 30px;
+    }
+    td {
+      padding: 10px 30px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.main-home {
+  display: flex;
+  align-items: center;
+
+  .btn-lg {
+    width: auto;
+  }
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  .main-home {
+    .btn-lg {
+      font-size: 24px;
+      padding: 10px;
+    }
+  }
+}
