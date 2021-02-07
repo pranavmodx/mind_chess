@@ -414,7 +414,7 @@ const Play = () => {
       {gameStatus.drawOffered && !offerDraw && (
         <>
           <span>{oppUsername} offered a draw</span>
-          <button name="Accept" onClick={handleOfferDrawResponse}>
+          <button className="btn" name="Accept" onClick={handleOfferDrawResponse}>
             Accept
           </button>
           <button onClick={handleOfferDrawResponse}>Decline</button>
@@ -424,7 +424,7 @@ const Play = () => {
       {gameStatus.takebackRequested && !requestTakeback && (
         <>
           <span>{oppUsername} requested a takeback</span>
-          <button name="Accept" onClick={handleTakebackResponse}>
+          <button className="btn" name="Accept" onClick={handleTakebackResponse}>
             Accept
           </button>
           <button onClick={handleTakebackResponse}>Decline</button>

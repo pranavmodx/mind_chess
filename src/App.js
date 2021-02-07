@@ -12,6 +12,8 @@ import Footer from "./components/common/Footer/Footer";
 
 import Home from "./pages/Home/Home";
 import PlayAgainstFriend from "./pages/PlayAgainstHuman/PlayAgainstFriend";
+import About from "./pages/About/About";
+import Help from "./pages/Help/Help";
 import PlayAgainstComp from "./pages/PlayAgainstComp/PlayAgainstComp";
 import NotFound from "./pages/NotFound/NotFound";
 
@@ -27,8 +29,10 @@ const App = () => {
             <SettingsState>
               <CounterState>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/help" component={Help} />
                 <Route exact path="/play/friend">
-                {/* <Route exact path="/"> */}
+                  {/* <Route exact path="/"> */}
                   <HumanGameState>
                     <P2PState>
                       <PlayAgainstFriend />
