@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import GameState from "./context/game/GameState";
 import HumanGameState from "./context/humanGame/HumanGameState";
@@ -26,8 +26,8 @@ const App = () => {
           <GameState>
             <SettingsState>
               <CounterState>
-                <Route path="/mind_chess" component={Home} />
-                <Route path="/mind_chess/play/friend">
+                <Route exact path="/" component={Home} />
+                <Route exact path="/play/friend">
                 {/* <Route exact path="/"> */}
                   <HumanGameState>
                     <P2PState>

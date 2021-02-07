@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <Link to="/mind_chess/" className="text-link">
+        <Link to="/" className="text-link">
           <FontAwesomeIcon icon={faBrain} color={"#ffe0bd"} />
           <span>&nbsp;MindChess</span>
         </Link>
@@ -23,13 +23,13 @@ const Navbar = () => {
       <div className="nav-menu">
         <ul className="nav-items">
           <li className="nav-item">
-            <Link to="/">
+            <Link to="/about">
               <FontAwesomeIcon icon={faInfo} color={"#f0ad4e"} />
               <span>&nbsp;About</span>
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/">
+            <Link to="/help">
               <FontAwesomeIcon icon={faQuestion} color={"#5bc0de"} />
               <span>&nbsp;Help</span>
             </Link>
