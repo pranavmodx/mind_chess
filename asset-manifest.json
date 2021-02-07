@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mind_chess/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/mind_chess/static/js/main.36cac026.chunk.js",
+    "main.js.map": "/mind_chess/static/js/main.36cac026.chunk.js.map",
+    "runtime-main.js": "/mind_chess/static/js/runtime-main.448bf63f.js",
+    "runtime-main.js.map": "/mind_chess/static/js/runtime-main.448bf63f.js.map",
+    "static/js/2.1983a6d7.chunk.js": "/mind_chess/static/js/2.1983a6d7.chunk.js",
+    "static/js/2.1983a6d7.chunk.js.map": "/mind_chess/static/js/2.1983a6d7.chunk.js.map",
+    "static/js/3.44b9ebde.chunk.js": "/mind_chess/static/js/3.44b9ebde.chunk.js",
+    "static/js/3.44b9ebde.chunk.js.map": "/mind_chess/static/js/3.44b9ebde.chunk.js.map",
+    "index.html": "/mind_chess/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/mind_chess/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.1983a6d7.chunk.js.LICENSE.txt": "/mind_chess/static/js/2.1983a6d7.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mind_chess/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.448bf63f.js",
+    "static/js/2.1983a6d7.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.36cac026.chunk.js"
+  ]
+}
