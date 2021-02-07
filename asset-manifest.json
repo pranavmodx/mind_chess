@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mind_chess/static/css/main.1d38b2e1.chunk.css",
-    "main.js": "/mind_chess/static/js/main.a86f276b.chunk.js",
-    "main.js.map": "/mind_chess/static/js/main.a86f276b.chunk.js.map",
+    "main.js": "/mind_chess/static/js/main.169613f5.chunk.js",
+    "main.js.map": "/mind_chess/static/js/main.169613f5.chunk.js.map",
     "runtime-main.js": "/mind_chess/static/js/runtime-main.ac6668df.js",
     "runtime-main.js.map": "/mind_chess/static/js/runtime-main.ac6668df.js.map",
     "static/js/2.1971ea20.chunk.js": "/mind_chess/static/js/2.1971ea20.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.ac6668df.js",
     "static/js/2.1971ea20.chunk.js",
     "static/css/main.1d38b2e1.chunk.css",
-    "static/js/main.a86f276b.chunk.js"
+    "static/js/main.169613f5.chunk.js"
   ]
 }
