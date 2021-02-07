@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/mind_chess/static/css/main.58b85138.chunk.css",
-    "main.js": "/mind_chess/static/js/main.9397f297.chunk.js",
-    "main.js.map": "/mind_chess/static/js/main.9397f297.chunk.js.map",
+    "main.js": "/mind_chess/static/js/main.7b494c3b.chunk.js",
+    "main.js.map": "/mind_chess/static/js/main.7b494c3b.chunk.js.map",
     "runtime-main.js": "/mind_chess/static/js/runtime-main.ac6668df.js",
     "runtime-main.js.map": "/mind_chess/static/js/runtime-main.ac6668df.js.map",
-    "static/js/2.a4daa488.chunk.js": "/mind_chess/static/js/2.a4daa488.chunk.js",
-    "static/js/2.a4daa488.chunk.js.map": "/mind_chess/static/js/2.a4daa488.chunk.js.map",
+    "static/js/2.38c2416f.chunk.js": "/mind_chess/static/js/2.38c2416f.chunk.js",
+    "static/js/2.38c2416f.chunk.js.map": "/mind_chess/static/js/2.38c2416f.chunk.js.map",
     "index.html": "/mind_chess/index.html",
     "static/css/main.58b85138.chunk.css.map": "/mind_chess/static/css/main.58b85138.chunk.css.map",
-    "static/js/2.a4daa488.chunk.js.LICENSE.txt": "/mind_chess/static/js/2.a4daa488.chunk.js.LICENSE.txt"
+    "static/js/2.38c2416f.chunk.js.LICENSE.txt": "/mind_chess/static/js/2.38c2416f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ac6668df.js",
-    "static/js/2.a4daa488.chunk.js",
+    "static/js/2.38c2416f.chunk.js",
     "static/css/main.58b85138.chunk.css",
-    "static/js/main.9397f297.chunk.js"
+    "static/js/main.7b494c3b.chunk.js"
   ]
 }
